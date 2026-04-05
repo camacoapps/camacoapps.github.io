@@ -1,5 +1,5 @@
 (function () {
-  var SITE_LANGUAGE_KEY = "michapps_language";
+  var SITE_LANGUAGE_KEY = "camacoapps_language";
   var sharedTranslations = {
     es: {
       "nav.home": "Inicio",

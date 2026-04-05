@@ -94,7 +94,9 @@ textarea:focus-visible {
 }
 
 #navigation .navbar-brand img {
-  border-radius: 10px;
+  display: block;
+  width: clamp(150px, 22vw, 240px);
+  height: auto;
 }
 
 #navigation .navbar-toggler {
@@ -540,6 +542,10 @@ textarea:focus-visible {
 @media (max-width: 991.98px) {
   #navigation .navbar {
     border-radius: 20px;
+  }
+
+  #navigation .navbar-brand img {
+    width: min(68vw, 220px);
   }
 
   #navigation .language-selector {
