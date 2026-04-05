@@ -101,6 +101,20 @@ textarea:focus-visible {
 
 #navigation .navbar-toggler {
   border-radius: 12px;
+  background: var(--nav-bg) !important;
+  border: 1px solid var(--border) !important;
+  padding: 0.35rem !important;
+  box-shadow: 0 6px 14px rgba(17, 32, 58, 0.14);
+}
+
+#navigation .navbar-toggler:hover,
+#navigation .navbar-toggler:focus-visible {
+  background: var(--surface-alt) !important;
+  border-color: rgba(17, 32, 58, 0.28) !important;
+}
+
+#navigation .navbar-toggler .svg-menu-icon {
+  stroke: var(--text) !important;
 }
 
 #navigation .navbar .nav-link {
