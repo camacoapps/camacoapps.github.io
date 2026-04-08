@@ -3,6 +3,8 @@
   var sharedTranslations = {
     es: {
       "nav.home": "Inicio",
+      "nav.healthApps": "Apps sanitarias",
+      "nav.otherApps": "Otras apps",
       "nav.pcn": "Pañales CN",
       "nav.scn": "Suplementos CN",
       "nav.pequedosis": "PequeDosis",
@@ -18,6 +20,8 @@
     },
     en: {
       "nav.home": "Home",
+      "nav.healthApps": "Healthcare apps",
+      "nav.otherApps": "Other apps",
       "nav.pcn": "Pañales CN",
       "nav.scn": "Suplementos CN",
       "nav.pequedosis": "PequeDosis",

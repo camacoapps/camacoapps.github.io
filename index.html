@@ -2,15 +2,15 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Camaco Apps, apps médicas, dosis pediátricas, notas clínicas">
-    <meta name="description" content="Camaco Apps: aplicaciones clínicas y utilidades sanitarias como Pañales CN, Suplementos CN, Centum, PequeDosis y MemoMed.">
+    <meta name="keywords" content="Camaco Apps, apps médicas, hipoteca, dosis pediátricas, notas clínicas">
+    <meta name="description" content="Camaco Apps: apps sanitarias y otras apps como Pañales CN, Suplementos CN, PequeDosis, MemoMed, MiHipoteca y Centum.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="robots" content="index, follow">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Camaco Apps">
     <meta property="og:locale" content="es_ES">
     <meta property="og:title" content="Camaco Apps">
-    <meta property="og:description" content="Descubre Pañales CN, Suplementos CN, Centum, PequeDosis y MemoMed en un mismo portal.">
+    <meta property="og:description" content="Descubre Pañales CN, Suplementos CN, PequeDosis, MemoMed, MiHipoteca y Centum en un mismo portal.">
     <meta property="og:url" content="https://camacoapps.github.io/">
     <meta property="og:image" content="https://camacoapps.github.io/img/logo-camaco.png">
     <meta name="theme-color" content="#2e3d48">
@@ -55,11 +55,8 @@
                                 </button>
                                 <div class="collapse navbar-collapse navbar-2066">
                                     <ul class="site-navigation nav navbar-nav ms-auto">
-                                        <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page" data-i18n="nav.home">Inicio</a></li>
-                                        <li class="nav-item"><a href="./pcn/index.html" class="nav-link" data-i18n="nav.pcn">Pañales CN</a></li>
-                                        <li class="nav-item"><a href="./scn/index.html" class="nav-link" data-i18n="nav.scn">Suplementos CN</a></li>
-                                        <li class="nav-item"><a href="./pequedosis/index.html" class="nav-link" data-i18n="nav.pequedosis">PequeDosis</a></li>
-                                        <li class="nav-item"><a href="./memomed/index.html" class="nav-link" data-i18n="nav.memomed">MemoMed</a></li>
+                                        <li class="nav-item"><a href="./index.html#apps-sanitarias" class="nav-link" data-i18n="nav.healthApps">Apps sanitarias</a></li>
+                                        <li class="nav-item"><a href="./index.html#otras-apps" class="nav-link" data-i18n="nav.otherApps">Otras apps</a></li>
                                         <li class="nav-item"><a href="./centum/index.html" class="nav-link" data-i18n="nav.centum">Centum</a></li>
                                     </ul>
                                 </div>
@@ -85,12 +82,12 @@
         <section class="home-hero" aria-labelledby="apps-title">
             <div class="container">
                 <h1 id="apps-title" class="home-title" data-i18n="home.appsTitle">Apps Disponibles</h1>
-                <p class="home-subtitle" data-i18n="home.appsSubtitle">Soluciones prácticas para consulta clínica, registro de notas y herramientas de apoyo desarrolladas por Camaco Apps.</p>
             </div>
         </section>
 
-        <section class="apps-section" aria-label="Listado de aplicaciones">
+        <section id="apps-sanitarias" class="apps-section" aria-labelledby="health-apps-title">
             <div class="container">
+                <h2 id="health-apps-title" class="apps-section-title" data-i18n="home.healthAppsTitle">Apps sanitarias</h2>
                 <div class="apps-grid">
                     <article class="app-card">
                         <a href="./pcn/index.html" class="app-card-media app-card-media-pcn" aria-label="Abrir página de Pañales CN">
@@ -126,6 +123,22 @@
                         <h3>MemoMed</h3>
                         <p data-i18n="home.memomedDesc">Notas clínicas modulares con búsqueda, organización y exportación.</p>
                         <a class="app-card-link" href="./memomed/index.html" data-i18n="home.viewApp">Ver app</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="otras-apps" class="apps-section other-apps-section" aria-labelledby="other-apps-title">
+            <div class="container">
+                <h2 id="other-apps-title" class="apps-section-title" data-i18n="home.otherAppsTitle">Otras apps</h2>
+                <div class="apps-grid">
+                    <article class="app-card">
+                        <a href="./mihipoteca/index.html" class="app-card-media app-card-media-mh" aria-label="Abrir página de MiHipoteca">
+                            <img src="./img/IconMiHipoteca.png" alt="Icono de MiHipoteca" width="64" height="64" loading="lazy" data-fallback="./assets/img/app-placeholder.svg" data-initials="MH">
+                        </a>
+                        <h3>MiHipoteca</h3>
+                        <p data-i18n="home.mihipotecaDesc">App solo para iOS: guarda y compara ofertas hipotecarias para elegir con claridad antes de firmar.</p>
+                        <a class="app-card-link" href="./mihipoteca/index.html" data-i18n="home.viewApp">Ver app</a>
                     </article>
                 </div>
             </div>
@@ -174,6 +187,7 @@
                         <a href="./scn/index.html" class="a-btn a-block">Suplementos CN</a>
                         <a href="./pequedosis/index.html" class="a-btn a-block">PequeDosis</a>
                         <a href="./memomed/index.html" class="a-btn a-block">MemoMed</a>
+                        <a href="./mihipoteca/index.html" class="a-btn a-block">MiHipoteca</a>
                     </div>
                     <div class="col-md-3 col-sm-6 col-lg-2 mb-3">
                         <h4 class="text-sm-start text-start mb-4" data-i18n="footer.games">Juegos</h4>
@@ -195,16 +209,18 @@
 window.pageTranslations = {
     es: {
         "meta.title": "Camaco Apps",
-        "meta.description": "Camaco Apps: aplicaciones clínicas y utilidades sanitarias como Pañales CN, Suplementos CN, Centum, PequeDosis y MemoMed.",
+        "meta.description": "Camaco Apps: apps sanitarias y otras apps como Pañales CN, Suplementos CN, PequeDosis, MemoMed, MiHipoteca y Centum.",
         "meta.ogTitle": "Camaco Apps",
-        "meta.ogDescription": "Descubre Pañales CN, Suplementos CN, Centum, PequeDosis y MemoMed en un mismo portal.",
+        "meta.ogDescription": "Descubre Pañales CN, Suplementos CN, PequeDosis, MemoMed, MiHipoteca y Centum en un mismo portal.",
         "meta.ogLocale": "es_ES",
         "home.appsTitle": "Apps Disponibles",
-        "home.appsSubtitle": "Soluciones prácticas para consulta clínica, registro de notas y herramientas de apoyo desarrolladas por Camaco Apps.",
+        "home.healthAppsTitle": "Apps sanitarias",
+        "home.otherAppsTitle": "Otras apps",
         "home.pcnDesc": "Localiza marca, talla, tipo y Código Nacional en segundos, con fichas claras para consulta sanitaria.",
         "home.scnDesc": "Tu atajo para encontrar suplementos por Código Nacional con menos clics y máxima legibilidad.",
         "home.pequedosisDesc": "Calculadora y guía rápida de dosis pediátricas para uso clínico.",
         "home.memomedDesc": "Notas clínicas modulares con búsqueda, organización y exportación.",
+        "home.mihipotecaDesc": "App solo para iOS: guarda y compara ofertas hipotecarias para elegir con claridad antes de firmar.",
         "home.viewApp": "Ver app",
         "home.gamesTitle": "Juegos Disponibles",
         "home.gamesSubtitle": "Desafíos para entrenar lógica y estrategia con el sello de Camaco Apps.",
@@ -213,16 +229,18 @@ window.pageTranslations = {
     },
     en: {
         "meta.title": "Camaco Apps",
-        "meta.description": "Camaco Apps: clinical and healthcare utility apps including Pañales CN, Suplementos CN, Centum, PequeDosis, and MemoMed.",
+        "meta.description": "Camaco Apps: healthcare apps and other tools including Pañales CN, Suplementos CN, PequeDosis, MemoMed, MiHipoteca, and Centum.",
         "meta.ogTitle": "Camaco Apps",
-        "meta.ogDescription": "Discover Pañales CN, Suplementos CN, Centum, PequeDosis, and MemoMed in one place.",
+        "meta.ogDescription": "Discover Pañales CN, Suplementos CN, PequeDosis, MemoMed, MiHipoteca, and Centum in one place.",
         "meta.ogLocale": "en_GB",
         "home.appsTitle": "Available Apps",
-        "home.appsSubtitle": "Practical solutions for clinical consultations, note-taking, and point-of-care support tools built by Camaco Apps.",
+        "home.healthAppsTitle": "Healthcare apps",
+        "home.otherAppsTitle": "Other apps",
         "home.pcnDesc": "Find brand, size, type, and National Code in seconds with clear product cards for clinical use.",
         "home.scnDesc": "Your shortcut to find supplements by National Code with fewer taps and better readability.",
         "home.pequedosisDesc": "Fast pediatric dosage calculator and quick clinical reference.",
         "home.memomedDesc": "Modular clinical notes with search, organization, and export.",
+        "home.mihipotecaDesc": "iOS-only app: save and compare mortgage offers at a glance before you decide.",
         "home.viewApp": "View app",
         "home.gamesTitle": "Available Games",
         "home.gamesSubtitle": "Challenges to train logic and strategy with the Camaco Apps signature.",
